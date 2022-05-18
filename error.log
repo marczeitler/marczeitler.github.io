@@ -1694,245 +1694,58 @@ To https://github.com/marczeitler/marczeitler.github.io.git
 
 ----------
 
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
+Wed May 18 2022 16:18:18 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in assets/bootstrap/js/bootstrap.min.js.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in assets/css/Navbar-Right-Links-Dark.css.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in assets/js/bold-and-bright.js.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in assets/js/jquery.min.js.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in chats.html.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in create.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in empty_page.html.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in home.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in index.html.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in profile.html.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:41 GMT+0200 (Mitteleuropäische Sommerzeit)
-
 warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 14:54:42 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-bash: /dev/tty: No such device or address
-
-
-----------
-
-Wed May 18 2022 14:54:42 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-error: failed to execute prompt script (exit code 1)
-
-
-----------
-
-Wed May 18 2022 14:54:42 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-fatal: could not read Username for 'https://github.com': No such file or directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
+warning: LF will be replaced by CRLF in assets/css/Profile-Edit-Form-1.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/css/Profile-Edit-Form.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/js/Profile-Edit-Form.js.
 The file will have its original line endings in your working directory
 
 
 ----------
 
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
+Wed May 18 2022 16:18:21 GMT+0200 (Mitteleuropäische Sommerzeit)
 
-warning: LF will be replaced by CRLF in assets/bootstrap/js/bootstrap.min.js.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/Navbar-Right-Links-Dark.css.
-The file will have its original line endings in your working directory
+To https://github.com/marczeitler/marczeitler.github.io.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/marczeitler/marczeitler.github.io.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
 ----------
 
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
+Wed May 18 2022 16:39:09 GMT+0200 (Mitteleuropäische Sommerzeit)
 
-warning: LF will be replaced by CRLF in assets/js/bold-and-bright.js.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/js/jquery.min.js.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in chats.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in create.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in empty_page.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in home.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in index.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in profile.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in search.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/Bootstrap-Chat.css.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/font-awesome.min.css.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fontawesome-webfont.svg.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:02 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in error.log.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 15:00:03 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-bash: /dev/tty: No such device or address
-
-
-----------
-
-Wed May 18 2022 15:00:03 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-error: failed to execute prompt script (exit code 1)
-fatal: could not read Username for 'https://github.com': No such file or directory
-
+Script C:\Daten\Website\marczeitler.github.io\export.bat couldn't be run
 
 ----------
 
