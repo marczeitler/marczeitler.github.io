@@ -21,7 +21,7 @@
                         <div class="dropdown-menu" style="width: 160px;"><a class="dropdown-item" href="#">Ukrainisch<img src="assets/img/Flags/Ukraine_Flagge.png" style="margin: 0px;width: 31px;margin-left: 21px;"></a><a class="dropdown-item" href="#">Englisch<img src="assets/img/Flags/US_Flagge.png" style="margin: 0px;width: 31px;margin-left: 36px;"></a><a class="dropdown-item text-start" href="#">Deutsch<img src="assets/img/Flags/Deutsche_Flagge.png" style="margin: 0px;width: 31px;margin-left: 37px;"></a></div>
                     </div>
                 </div>
-            </nav><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-color: rgba(0,0,0,0.33);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            </nav><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-color: var(--bs-gray-dark);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="border-color: var(--bs-gray-dark);"></span></button>
             <div class="collapse navbar-collapse text-start flex-grow-0" id="navcol-1" style="color: var(--bs-gray-dark);">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="home.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-house-door" style="margin-right: 5px;">
@@ -48,14 +48,9 @@
         </div>
     </nav>
     <section class="py-5 mt-5">
-        <div class="container profile profile-view" id="profile">
-            <div class="row">
-                <div class="col-md-12 alert-col relative">
-                    <div class="alert alert-info alert-dismissible absolue center" role="alert"><button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button><span>Profile save with success</span></div>
-                </div>
-            </div>
+        <div class="container profile profile-view" id="profile" style="padding-top: 0px;padding-left: 0px;padding-right: 0px;margin-top: -60px;">
             <form>
-                <div class="row d-flex justify-content-center profile-row">
+                <div class="row d-flex justify-content-center profile-row" style="margin-left: 0px;margin-right: 0px;">
                     <div class="col-md-4 col-xl-4 offset-xl-0 d-xl-flex justify-content-xl-center relative" style="width: 270.656px;">
                         <div class="row d-flex justify-content-center" style="height: 232.281px;width: 270px;">
                             <div class="col d-xl-flex justify-content-xl-center" style="height: 2.016px;">
@@ -67,31 +62,21 @@
                         </div>
                     </div>
                     <div class="col-md-8">
+                        <h3>Allgemeine Informationen</h3>
                         <hr>
                         <div class="row">
                             <div class="col">
-                                <div class="form-group mb-3"><label class="form-label">Nutzername</label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="HalalKebab1" readonly=""></div>
+                                <div class="form-group mb-3"><label class="form-label">Nutzername *</label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="HalalKebab1"></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
-                                <div class="form-group mb-3"><label class="form-label">Vorname</label><input class="form-control" type="text" name="firstname" value="Döner" readonly=""></div>
+                                <div class="form-group mb-3"><label class="form-label">Vorname</label><input class="form-control" type="text" name="firstname" value="Döner"></div>
                             </div>
                             <div class="col-sm-12 col-md-6">
-                                <div class="form-group mb-3"><label class="form-label">Nachname</label><input class="form-control" type="text" name="lastname" value="Kebab" readonly=""></div>
+                                <div class="form-group mb-3"><label class="form-label">Nachname</label><input class="form-control" type="text" name="lastname" value="Kebab"></div>
                             </div>
                         </div>
-                        <div class="form-group mb-3"><label class="form-label">Email </label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="Döner.Kebab@gmail.com" readonly=""></div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="form-group mb-3"><label class="form-label">Passwort</label><input class="form-control" type="password" name="password" autocomplete="off" required="" value="*************" readonly=""></div>
-                            </div>
-                            <div class="col-sm-12 col-md-6">
-                                <div class="form-group mb-3"><label class="form-label">Passwort verändern</label><input class="form-control" type="password" name="confirmpass" autocomplete="off" required=""></div>
-                            </div>
-                        </div>
-                        <hr>
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
                                 <div class="form-group mb-3"><label class="form-label">Geschlecht</label><select class="form-select">
@@ -105,22 +90,68 @@
                                 <div class="form-group mb-3"><label class="form-label">Geburtstagsdatum</label><input class="form-control" type="date"></div>
                             </div>
                         </div>
+                        <div class="form-group mb-3"><label class="form-label">Email *</label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="Döner.Kebab@gmail.com" readonly=""></div>
+                        <hr>
+                        <h3>Passworteinstellungen</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group mb-3"><label class="form-label">Passwort *</label><input class="form-control" type="password" name="password" autocomplete="off" required="" value="*************" readonly=""></div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group mb-3"><label class="form-label">Passwort verändern</label><input class="form-control" type="password" name="confirmpass" autocomplete="off" required="" placeholder="Neues Passwort"></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <h3>Anschrift &amp; Telefonnummer</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group mb-3"><label class="form-label">Straße, Hausnummer</label><input class="form-control" type="text" value="Kebabstraße, 4"></div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="form-group mb-3"><label class="form-label">Postleitzahl, Wohnort</label><input class="form-control" type="text" value="84884,  Dönerstand"></div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col">
-                                <div class="form-group mb-3"><label class="form-label">Telefonnummer</label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="12454512121545512121"></div>
+                                <div class="form-group mb-3"><label class="form-label">Festnetznummer</label><input class="form-control" type="email" autocomplete="off" required="" value="08567/817281"></div>
                             </div>
                             <div class="col">
-                                <div class="form-group mb-3"><label class="form-label">Mobiltelefonnummer</label><input class="form-control" type="email" autocomplete="off" required="" name="email" value="12454512121545512121"></div>
+                                <div class="form-group mb-3"><label class="form-label">Mobil</label><input class="form-control" type="email" autocomplete="off" required="" value="0151/938283"></div>
                             </div>
+                        </div>
+                        <hr>
+                        <h3>Zusätzliche Informationen</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group mb-3"><label class="form-label">Beruf</label><textarea class="form-control">Sehr gut schmeckendes Nahrungsmittel</textarea></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group mb-3"><label class="form-label">Hobbies/Interessen</label><textarea class="form-control" rows="5">Lass mich gerne am Dönerspieß bräunen und anschließend von Der Gerät schneiden. </textarea></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group mb-3"><label class="form-label">Sonstiges über mich</label><textarea class="form-control" rows="5">Scharf und heiß schmecke ich am besten.</textarea></div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Ich bestätige, dass meine Angaben korrekt sind und ich diese Website nur für private, nicht-kommerzielle Zwecke verwende *</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Ich akzeptiere die Lizenzvereinbarung *</label></div>
+                        <hr><small>Mit * markierte Felder sind Pflichtfelder und müssen ausgefüllt werden, alle anderen Felder sind optional. Persönliche Informationen wie Email-Adresse, Passwort, Anschrift und Telefonnummer können von keinem Nutzer gesehen werden und werden nicht an Dritte weitergegeben. Für weitere Informationen siehe die Lizenzvereinbarung.&nbsp;&nbsp;</small>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12 content-right"><button class="btn btn-danger form-btn" type="reset" style="border-style: none;color: rgb(52,58,64);">Abbrechen</button><button class="btn btn-primary form-btn" type="submit" style="background: #39c4e3;border-style: none;color: rgb(52,58,64);">Speichern</button></div>
                         </div>
                     </div>
                 </div>
             </form>
         </div>
     </section>
-    <div class="row">
-        <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit">SAVE </button><button class="btn btn-danger form-btn" type="reset">CANCEL </button></div>
-    </div>
     <footer class="bg-primary-gradient">
         <div class="container py-4 py-lg-5">
             <div class="row justify-content-center">
