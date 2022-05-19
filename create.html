@@ -62,34 +62,25 @@
         </div>
     </section>
     <div class="container" style="background: var(--bs-gray-100);padding-top: -22px;">
-        <div class="row g-0 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-xxl-center" style="color: var(--bs-gray-600);background: var(--ref-gray-100);height: 141.3958px;">
-            <div class="col">
+        <div class="row g-0 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="color: var(--bs-gray-600);background: var(--ref-gray-100);height: 141.3958px;">
+            <div class="col d-xl-flex justify-content-xl-center">
                 <fieldset class="d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="background: var(--bs-gray-100);height: 137.3958px;">
                     <div class="toggle"><input type="radio" id="cond_new" name="bike_cond" checked="checked"><label class="form-label" for="cond_new">Ich biete</label><input type="radio" id="cond_used" name="bike_cond"><label class="form-label" for="cond_used">Ich suche</label></div>
                 </fieldset>
             </div>
         </div>
-        <div class="row" style="height: 42px;">
-            <div class="col"></div>
-            <div class="col d-xxl-flex justify-content-xxl-center" style="width: 440px;background: var(--bs-gray-400);">
-                <h1 style="font-size: 17px;text-align: center;margin-bottom: 22px;width: 440px;height: 25.3958px;">Bilder hinzufügen</h1>
-            </div>
-            <div class="col" style="width: 440;"></div>
-        </div>
-        <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center"></div>
-            <div class="col d-xxl-flex justify-content-xxl-center" style="background: var(--bs-gray-400);margin-bottom: 2px;padding-bottom: 21px;">
-                <div id="someId" class="rounded position-relative vPreviewImage" style="width: 96px;height: 96px;background: url('assets/img/input_image_preview/upload_image.png') center / cover no-repeat;" input-data-index="0"><button class="btn d-none close position-sticky vClearPreviewImage" type="button"><span class="bg-white pl-2 pr-2" aria-hidden="true">&times;</span></button>
-                    <p style="width: 156px;height: 131px;max-width: 0px;padding-top: 0px;"><input class="d-xxl-flex justify-content-xxl-center vInputImage" type="file" style="width: 122px;height: 96px;opacity: 0;cursor: pointer;margin-top: 8px;padding-top: 15px;" accept="image/*"></p>
+        <div class="row d-xxl-flex justify-content-xxl-center" style="height: 42px;">
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center">
+                <div id="someId" class="rounded position-relative vPreviewImage" style="width: 96px;height: 96px;background: url(&quot;assets/img/input_image_preview/upload_image.png&quot;) center / cover no-repeat, var(--bs-body-bg);" input-data-index="0"><button class="btn d-none close position-sticky vClearPreviewImage" type="button" style="background: var(--bs-gray-dark);"><span class="bg-white pl-2 pr-2" aria-hidden="true">&times;</span></button><input type="file" class="vInputImage" style="width: 96px;height: 96px;opacity: 0;cursor: pointer;background: var(--bs-gray-500);" accept="image/*">
+                    <h1 style="font-size: 12px;width: 118px;margin-top: 7px;">Bilder hinzufügen</h1>
                 </div>
             </div>
-            <div class="col"></div>
         </div>
         <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center" style="width: 1250px;"><input class="border rounded" type="text" style="margin-top: 88px;width: 397px;line-height: 0px;padding: 0px;margin-left: 0px;height: 33.3333px;padding-left: 15px;" placeholder="Titel der Anzeige"></div>
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center" style="width: 1250px;padding-top: 33px;"><input class="border rounded" type="text" style="margin-top: 88px;width: 330px;line-height: 0px;padding: 0px;margin-left: 0px;height: 33.3333px;padding-left: 15px;" placeholder="Titel der Anzeige"></div>
         </div>
         <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center"><select class="border rounded" style="height: 30px;padding-top: 3px;padding-bottom: 3px;font-size: 15px;width: 31%;color: var(--bs-gray-900);background: var(--bs-body-bg);margin-top: 39px;padding-left: 8px;transform: perspective(0px) translate(0px);opacity: 1;filter: blur(0px) brightness(100%);">
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center"><select class="border rounded" style="height: 30px;padding-top: 3px;padding-bottom: 3px;font-size: 15px;width: 330px;color: var(--bs-gray-900);background: var(--bs-body-bg);margin-top: 39px;padding-left: 8px;transform: perspective(0px) translate(0px);opacity: 1;filter: blur(0px) brightness(100%);">
                     <option value="12" selected="">Kategorie</option>
                     <option value="">Hilfeleistung</option>
                     <option value="">Sozialer Kontakt</option>
@@ -97,13 +88,13 @@
                 </select></div>
         </div>
         <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center" style="margin-top: 48px;"><textarea class="border rounded" style="width: 397px;height: 171.1875px;padding-left: 8px;" placeholder="Beschreibung"></textarea></div>
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center" style="margin-top: 48px;"><textarea class="border rounded" style="width: 330px;height: 171.1875px;padding-left: 8px;" placeholder="Beschreibung"></textarea></div>
         </div>
         <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center"><input class="border rounded" type="text" placeholder="Postleitzahl" style="margin-top: 44px;padding-left: 12px;width: 397px;"></div>
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center"><input class="border rounded" type="text" placeholder="Postleitzahl" style="margin-top: 44px;padding-left: 12px;width: 330px;"></div>
         </div>
         <div class="row">
-            <div class="col d-xxl-flex justify-content-xxl-center" style="margin-bottom: 45px;"><button class="btn btn-primary" type="button" style="margin-top: 49px;">Anzeige aufgeben</button></div>
+            <div class="col d-flex d-xl-flex d-xxl-flex justify-content-center justify-content-xl-center justify-content-xxl-center" style="margin-bottom: 45px;"><button class="btn btn-primary" type="button" style="margin-top: 49px;">Anzeige aufgeben</button></div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
