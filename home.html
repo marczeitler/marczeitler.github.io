@@ -4,16 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Pricing - Brand</title>
+    <title>Home - UBay</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Filter.css">
     <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
     <link rel="stylesheet" href="assets/css/Profile-Edit-Form-1.css">
     <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-xl fixed-top navbar-shrink py-3" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;">
+    <nav class="navbar navbar-light fixed-top navbar-shrink py-3" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;">
         <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex" href="home.html" style="margin-right: 0px;"><img src="assets/img/Flags/Ukraine_Flagge.png" width="50" style="margin-right: 10px;"><span style="color: var(--bs-gray-dark);">U-Bay</span></a>
             <nav class="navbar navbar-light navbar-expand-md">
                 <div class="container-fluid">
@@ -33,12 +36,20 @@
                     <li class="nav-item"><a class="nav-link" href="create.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil" style="margin-right: 5px;">
                                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"></path>
                             </svg>Angebot erstellen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-eye" style="margin-right: 5px;">
+                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
+                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"></path>
+                            </svg>&nbsp;Meine Inserate</a></li>
                     <li class="nav-item"><a class="nav-link" href="chats.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chat" style="margin-right: 5px;">
                                 <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"></path>
                             </svg>Chats</a></li>
                     <li class="nav-item"><a class="nav-link" href="profile.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person" style="margin-right: 5px;">
                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
                             </svg>Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-gear" style="margin-right: 5px;">
+                                <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"></path>
+                                <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"></path>
+                            </svg>Einstellungen&nbsp; </a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-door-closed" style="margin-right: 5px;">
                                 <path d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13h1.5a.5.5 0 0 1 0 1h-13a.5.5 0 0 1 0-1H3V2zm1 13h8V2H4v13z"></path>
                                 <path d="M9 9a1 1 0 1 0 2 0 1 1 0 0 0-2 0z"></path>
@@ -48,71 +59,62 @@
         </div>
     </nav>
     <section class="py-5 mt-5">
-        <div class="container py-5">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 class="fw-bold">Heading</h2>
-                    <p class="text-muted w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis nostra nunc. Vestibulum dui eget ultrices.</p>
-                </div>
-            </div>
-            <div class="row g-0 row-cols-1 row-cols-md-2 row-cols-xl-3 d-flex align-items-md-center align-items-xl-center">
-                <div class="col offset-xl-2 mb-4">
-                    <div class="card bg-light border-light">
-                        <div class="card-body p-4">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <h3 class="fw-bold mb-0">Basic Bundle</h3>
-                                    <p>Suscipit</p>
-                                    <h4 class="display-4 fw-bold">$25</h4>
-                                </div>
-                            </div>
-                            <div>
-                                <ul class="list-unstyled">
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Lectus ut nibh quam, felis porttitor.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Ante nec venenatis etiam lacinia.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Porta suscipit netus ad ac.</span></li>
-                                </ul>
-                            </div><button class="btn btn-primary d-block w-100" type="button">Button</button>
-                        </div>
+        <div class="container" style="padding-right: 0px;padding-left: 0px;">
+            <div class="input-group d-flex justify-content-end justify-content-sm-end"><span class="border rounded-0 border-dark input-group-text" style="border-color: var(--bs-gray-dark);"> <i class="fas fa-filter"></i></span><select class="form-select" name="Angebot_Anfrage" style="border-color: var(--bs-gray-dark);font-family: Inter, sans-serif;font-weight: bold;width: 116.406px;">
+                    <optgroup label="Art der Inserate">
+                        <option value="14" selected="">Alle</option>
+                        <option value="12" selected="">Angebote</option>
+                        <option value="13">Anfragen</option>
+                    </optgroup>
+                </select>
+                <div class="dropdown"><button class="btn btn-primary dropdown-toggle rounded-0 text-center" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: rgb(255,255,255);color: rgb(52,58,64);border-color: var(--bs-gray-dark);font-family: Inter, sans-serif;width: 200px;">Entfernung</button>
+                    <div class="dropdown-menu" style="padding-left: 10px;">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1" checked=""><label class="form-check-label" for="formCheck-1">0 - 100 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2" checked=""><label class="form-check-label" for="formCheck-2">100 - 200 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3" checked=""><label class="form-check-label" for="formCheck-3">200 - 500 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4" checked=""><label class="form-check-label" for="formCheck-4">500 - 750 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5" checked=""><label class="form-check-label" for="formCheck-5">750 - 1000 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6" checked=""><label class="form-check-label" for="formCheck-6">1000 - 1500 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7" checked=""><label class="form-check-label" for="formCheck-7">1500 - 2000 m</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8" checked=""><label class="form-check-label" for="formCheck-8">2000 m +</label></div>
                     </div>
                 </div>
-                <div class="col mb-4">
-                    <div class="card textwhite bg-primary text-white">
-                        <div class="card-body p-4">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <h3 class="fw-bold text-white mb-0">Pro Bundle</h3>
-                                    <p>Suscipit + donec</p>
-                                    <h4 class="display-4 fw-bold text-white">$38</h4>
-                                </div>
-                                <div><span class="badge rounded-pill bg-primary text-uppercase bg-semi-white">Best Value</span></div>
-                            </div>
-                            <div>
-                                <ul class="list-unstyled">
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-semi-white bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Lectus ut nibh quam, felis porttitor.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-semi-white bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Ante nec venenatis etiam lacinia.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-semi-white bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Porta suscipit netus ad ac.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-semi-white bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Morbi praesent aptent integer at.</span></li>
-                                    <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-semi-white bs-icon bs-icon-xs me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg text-primary">
-                                                <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
-                                            </svg></span><span>Nisl potenti ut auctor lobortis.</span></li>
-                                </ul>
-                            </div><button class="btn btn-primary d-block w-100 bg-semi-white" type="button">Button</button>
-                        </div>
+                <div class="dropdown"><button class="btn btn-primary dropdown-toggle rounded-0 text-center" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: rgb(255,255,255);color: rgb(52,58,64);border-color: var(--bs-gray-dark);font-family: Inter, sans-serif;width: 200px;">Sprache</button>
+                    <div class="dropdown-menu" style="padding-left: 10px;">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-18" checked=""><label class="form-check-label" for="formCheck-18">Deutsch</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-19" checked=""><label class="form-check-label" for="formCheck-19">Ukrainisch</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-20" checked=""><label class="form-check-label" for="formCheck-20">Englisch</label></div>
+                    </div>
+                </div>
+                <div class="dropdown"><button class="btn btn-primary dropdown-toggle rounded-0 text-center" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: rgb(255,255,255);color: rgb(52,58,64);border-color: var(--bs-gray-dark);font-family: Inter, sans-serif;width: 200px;">Person</button>
+                    <div class="dropdown-menu" style="padding-left: 10px;">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9" checked=""><label class="form-check-label" for="formCheck-9">Männlich</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10" checked=""><label class="form-check-label" for="formCheck-10">Weiblich</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11" checked=""><label class="form-check-label" for="formCheck-11">Divers</label></div>
+                        <hr style="margin-top: 5px;margin-bottom: 5px;">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12" checked=""><label class="form-check-label" for="formCheck-12">18 bis 25 Jahre</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13" checked=""><label class="form-check-label" for="formCheck-13">25 bis 35 Jahre</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14" checked=""><label class="form-check-label" for="formCheck-14">35 bis 45 Jahre</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-15" checked=""><label class="form-check-label" for="formCheck-15">45 bis 55 Jahre</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-16" checked=""><label class="form-check-label" for="formCheck-16">55 bis 65 Jahre</label></div>
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-17" checked=""><label class="form-check-label" for="formCheck-17">65 + Jahre</label></div>
+                    </div>
+                </div><button class="btn btn-primary border rounded-0 border-dark" type="button" style="border-color: var(--bs-gray-dark);color: var(--bs-gray-dark);background: rgb(233,236,239);width: 125.328px;">Filtern</button>
+            </div>
+            <div class="input-group" style="margin-top: 5px;"><span class="border rounded-0 border-dark input-group-text" style="border-color: var(--bs-gray-dark);"> <i class="fa fa-search"></i></span><input class="form-control" type="text" value="Ich suche ..." style="border-color: var(--bs-gray-dark);"><button class="btn btn-primary border rounded-0 border-dark" type="button" style="border-color: var(--bs-gray-dark);color: var(--bs-gray-dark);background: rgb(233,236,239);">Suchen</button></div>
+        </div>
+        <div class="container" style="margin-top: 10px;border: 1px solid var(--bs-gray-dark) ;">
+            <div class="row justify-content-center" style="border-color: var(--bs-gray-dark);">
+                <div class="col-md-6 text-center d-flex d-xl-flex flex-shrink-1 justify-content-center align-items-center justify-content-xl-center align-items-xl-center" style="width: 246px;height: 215px;border-right-width: 1px;border-right-color: var(--bs-gray-dark);"><img src="assets/img/team/Download.png" style="width: 150px;"></div>
+                <div class="col" style="border-left: 1px solid var(--bs-gray-dark) ;">
+                    <h2 style="margin-top: 10px;">Sprachunterricht Deutsch</h2>
+                    <hr style="margin-top: 0px;">
+                    <div class="row flex-grow-1 flex-shrink-1 flex-fill">
+                        <div class="col flex-grow-1 flex-shrink-1 flex-fill"><span><i class="far fa-user" style="margin-right: 3px;"></i>Halalkebab1, Döner Kebab, 25 Jahre<br><i class="fas fa-map-marker-alt" style="margin-right: 3px;"></i>Kebabstraße 4, 84884 Dönerstand<br><br></span></div>
+                        <div class="col flex-grow-1 flex-shrink-1 flex-fill"><span><i class="far fa-sticky-note" style="margin-right: 3px;"></i>&nbsp;Anmerkungen: Ich würde gerne geflüchteten Menschen helfen, die deutsche Sprache zu lernen oder zu verbessern.<br></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col d-flex d-xl-flex justify-content-end justify-content-xl-end" style="height: 58.7812px;"><button class="btn btn-primary" type="button" style="margin-top: 5px;margin-bottom: 5px;">Anfragen</button></div>
                     </div>
                 </div>
             </div>
