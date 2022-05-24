@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background: #005bbb;">
 
 <head>
     <meta charset="utf-8">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
 </head>
 
-<body>
+<body style="background: rgb(0,91,187);">
     <nav class="navbar navbar-light fixed-top navbar-shrink py-3" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;">
         <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex" href="myinserts.html" style="margin-right: 0px;"><img src="assets/img/Flags/Ukraine_Flagge.png" width="50" style="margin-right: 10px;"><span style="color: var(--bs-gray-dark);">U-Bay</span></a>
             <nav class="navbar navbar-light navbar-expand-md">
@@ -58,53 +58,54 @@
             </div>
         </div>
     </nav>
-    <section style="margin-top: 90px;">
-        <div class="container">
+    <section style="margin-top: 90px;background: #005bbb;">
+        <div class="container" style="background: #ffd500;font-weight: bold;">
             <form>
                 <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                        <h3 style="font-weight: bold;">Anmeldung</h3>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
                     <div class="col" style="margin-bottom: 20px;margin-right: 0px;">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h3>Anmelde-Informationen</h3>
-                                <hr>
-                            </div>
-                        </div>
                         <div class="row row-cols-1 d-flex flex-grow-0">
-                            <div class="col" style="padding-right: 20px;margin-bottom: 5px;"><label class="form-label">E-Mail Adresse</label><input class="form-control" type="text" readonly=""></div>
-                            <div class="col" style="padding-right: 20px;"><label class="form-label">E-Mail Adresse ändern:</label><input class="form-control" type="text"></div>
-                        </div>
-                        <div class="row flex-column" style="margin-top: 5px;">
-                            <div class="col" style="padding-right: 20px;margin-bottom: 5px;"><label class="form-label">Passwort</label><input class="form-control" type="text" readonly=""></div>
-                            <div class="col" style="padding-right: 20px;"><label class="form-label">Passwort ändern:</label><input class="form-control" type="text"></div>
-                            <div class="col">
-                                <hr>
-                            </div>
+                            <div class="col" style="padding-right: 20px;margin-bottom: 5px;"><label class="form-label">E-Mail Adresse</label><input class="form-control" type="text" readonly="" value="Max.Mustermann@tum.de"></div>
+                            <div class="col" style="padding-right: 20px;margin-top: 5px;"><label class="form-label">Passwort</label><input class="form-control" type="password" readonly="" value="Musterpasswort"></div>
                         </div>
                     </div>
+                    <div class="col" style="margin-bottom: 20px;margin-right: 0px;">
+                        <div class="row row-cols-1 d-flex flex-grow-0">
+                            <div class="col" style="padding-right: 20px;margin-bottom: 5px;"><label class="form-label">E-Mail ändern</label><input class="form-control" type="text"></div>
+                            <div class="col" style="padding-right: 20px;margin-top: 5px;"><label class="form-label">Passwort ändern</label><input class="form-control" type="password"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col">
                         <div class="row">
                             <div class="col">
-                                <h3>Benachrichtigungseinstellungen</h3>
+                                <hr>
+                                <h3 style="font-weight: bold;">Benachrichtigungen</h3>
                                 <hr>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col"><label class="form-label" style="margin-bottom: 0px;">Email Benachrichtigungen:</label>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Bei neu empfangenen Nachrichten</label></div>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Bei der erfolgreicher Erstellung neuer Inserate</label></div>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Newsletter</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">Bei neu empfangenen Nachrichten</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">Bei der erfolgreicher Erstellung neuer Inserate</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">Newsletter</label></div>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="col"><label class="form-label" style="margin-bottom: 0px;margin-top: 5px;">Push Benachrichtigungen:</label>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Aktivieren</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">Aktivieren</label></div>
                             </div>
                         </div>
                         <hr>
                         <div class="row">
                             <div class="col">
-                                <h3>Bedienungshilfen</h3>
-                                <hr>
+                                <h3 style="font-weight: bold;">Bedienungshilfen</h3>
+                                <hr style="margin-bottom: 2px;">
                             </div>
                         </div>
                         <div class="row">
@@ -119,21 +120,21 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Farbenblind Modus</label></div>
-                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">Text auf der Seite Vorlesen</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">Farbenblind Modus</label></div>
+                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">Text auf der Seite Vorlesen</label></div>
                             </div>
                         </div>
                         <hr>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 d-flex justify-content-end align-items-center content-right" style="margin-top: 10px;padding-right: 20px;"><button class="btn btn-primary form-btn" type="submit" style="background: #39c4e3;border-style: none;color: rgb(52,58,64);">Übernehmen</button><button class="btn btn-danger form-btn" type="reset" style="border-style: none;color: rgb(52,58,64);">Abbrechen</button></div>
+                    <div class="col-md-12 content-right" style="padding-bottom: 10px;"><button class="btn btn-danger form-btn" type="reset" style="border-style: none;color: var(--bs-white);background: rgb(220,2,4);">Abbrechen</button><button class="btn btn-primary form-btn" type="submit" style="background: #005bbb;border-style: none;color: var(--bs-white);">Speichern</button></div>
                 </div>
             </form>
         </div>
     </section>
     <footer class="bg-primary-gradient" style="background: #39c4e3;">
-        <div class="container py-4 py-lg-5">
+        <div class="container py-4 py-lg-5" style="margin-top: 20px;">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                     <h3 class="fs-6 fw-bold" style="margin-top: 8px;">Über</h3>
