@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/Toggle-Switches.css">
 </head>
 
-<body style="/*background: url(&quot;design.jpg&quot;);*/background-position: 0 -60px;">
+<body style="background: #e9f2fb;">
     <nav class="navbar navbar-light fixed-top navbar-shrink py-3" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;">
         <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex" href="search.html" style="margin-right: 0px;"><img src="assets/img/Flags/Logo.png" style="width: 50px;margin-right: 5px;"><span style="color: var(--bs-gray-dark);">U-Bay</span></a>
             <nav class="navbar navbar-light navbar-expand-md">
@@ -77,35 +77,37 @@
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <p class="fw-bold text-success mb-2"></p>
-                    <h2 class="fw-bold">Angebote suchen</h2>
+                    <h2 class="fw-bold">Inserate suchen</h2>
                 </div>
             </div>
         </div>
-        <div class="container" style="background: #39c4e3;height: auto;color: var(--bs-gray-900);padding-bottom: 11px;border-radius: 12px;">
-            <div class="row">
+        <div class="container" style="background: #39c4e3;height: auto;color: var(--bs-gray-900);border-radius: 12px;">
+            <div class="row" style="padding-top: 10px;">
                 <div class="col">
-                    <h1 style="font-size: 18px;padding-left: 8px;height: 0px;padding-top: 6px;">Inserate filtern</h1>
+                    <h1 style="font-size: 18px;">Inserate filtern</h1>
                 </div>
             </div>
-            <div class="row" style="margin-top: 11px;">
-                <div class="col" style="margin-top: 16px;width: 1395px;">
-                    <div class="input-group"><input class="form-control" type="text" style="min-width: auto;transform: scale(1);border-width: 0px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"><button class="btn btn-primary" type="button" style="width: 130.637px;background: rgba(255,255,255,0);margin-top: 2px;margin-left: 0px;padding-top: 4.6px;padding-bottom: 3.6px;padding-left: 32px;height: 15.8px;margin-bottom: -1px;margin-right: 6px;"><select style="width: 134.8px;height: 44.8px;margin-left: -33px;background: #35dcb4;font-size: 15px;border-top-right-radius: 16px;border-bottom-right-radius: 16px;padding-left: 0px;opacity: 1;filter: blur(0px) contrast(100%) grayscale(0%) hue-rotate(0deg);min-height: none;margin-bottom: 12px;padding-bottom: 0px;border-width: 0px;margin-top: -8px;margin-right: -3px;color: #f1f1f1;">
-                                <option value="undefined">Kategorie</option>
-                                <option value="12" selected="">Hilfeleistung</option>
-                                <option value="13">Gegenstand</option>
-                                <option value="14">Sozialer Kontakt</option>
-                            </select></button></div>
-                </div>
+            <div class="row">
+                <div class="col"><input type="text" style="min-width: auto;transform: scale(1);border-width: 0px;width: 922.1px;height: 44.8px;border-radius: 14px;padding-left: 10px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"></div>
+                <div class="col"><button class="btn btn-primary" type="button" style="background: rgb(0,91,187);height: 44.8px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>Suchen</button></div>
             </div>
-            <div class="row" style="margin-top: 21px;">
-                <div class="col-lg-6 offset-lg-0" style="width: auto;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;">
+            <div class="row" style="margin-top: 10px;margin-bottom: 10px;padding-bottom: 15px;">
+                <div class="col" style="width: 202px;"><select style="margin-top: 0px;height: 44px;border-radius: 16px;padding-left: 5px;border-width: 0px;">
+                        <option value="12" selected="">Alle Kategorien</option>
+                        <option value="13">Hilfeleistung</option>
+                        <option value="15">Sozialer Kontakt</option>
+                        <option value="14">Produkt</option>
+                    </select></div>
+                <div class="col-lg-6 offset-lg-0 d-xl-flex justify-content-xl-center" style="width: 333px;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;">
                         <option value="undefined">Im Ort</option>
                         <option value="12" selected="">+ 5 km</option>
                         <option value="13">+ 10 km</option>
                         <option value="14">+ 50 km</option>
                     </select></div>
-                <div class="col d-md-flex justify-content-md-center justify-content-lg-center justify-content-xl-center">
-                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);">Person</button>
+                <div class="col d-xl-flex justify-content-xl-start">
+                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);height: 44px;">Person</button>
                         <div class="dropdown-menu" style="margin-left: 0px;padding-left: 14px;">
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">männlich</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">weiblich</label></div>
@@ -116,24 +118,19 @@
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">36-45 Jahre</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">46-55 Jahre</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13"><label class="form-check-label" for="formCheck-13">56-65 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14"><label class="form-check-label" for="formCheck-14">66+ Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14"><label class="form-check-label" for="formCheck-14">66+ Jahre</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
                         </div>
                     </div>
                 </div>
-                <div class="col d-md-flex d-lg-flex d-xl-flex justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center" style="width: auto;">
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;">Sprache</button>
+                <div class="col d-md-flex d-lg-flex d-xl-flex justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
+                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;height: 44px;">Sprache</button>
                         <div class="dropdown-menu" style="padding-left: 21px;">
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Deutsch</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Englisch</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="margin-top: 21px;">
-                <div class="col"><button class="btn btn-primary" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                        </svg>Suchen</button></div>
             </div>
         </div>
         <div class="container">
@@ -195,62 +192,6 @@
             </div>
         </div>
     </section>
-    <footer class="bg-primary-gradient">
-        <div class="container py-4 py-lg-5">
-            <div class="list-group"><a class="list-group-item list-group-item-action flex-column align-items-start" href="#">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Heading</h5><span class="badge rounded-pill bg-primary align-self-center">organisation</span>
-                    </div>
-                    <p class="mb-1">Paragraph</p><small class="text-muted">Text</small>
-                </a><a class="list-group-item list-group-item-action flex-column align-items-start" href="#">
-                    <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Heading</h5><span class="badge rounded-pill bg-primary align-self-center">organisation</span>
-                    </div>
-                    <p class="mb-1">Paragraph</p><small class="text-muted">Text</small>
-                </a></div>
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6 fw-bold">Services</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Web design</a></li>
-                        <li><a href="#">Development</a></li>
-                        <li><a href="#">Hosting</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6 fw-bold">About</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Company</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Legacy</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                    <h3 class="fs-6 fw-bold">Careers</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Job openings</a></li>
-                        <li><a href="#">Employee success</a></li>
-                        <li><a href="#">Benefits</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr>
-            <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-                <p class="mb-0">Copyright © 2022 Brand</p>
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
-                        </svg></li>
-                    <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
-                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
-                        </svg></li>
-                    <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                        </svg></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
