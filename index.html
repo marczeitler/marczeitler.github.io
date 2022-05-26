@@ -40,7 +40,7 @@
                                         <form class="text-center" method="post">
                                             <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                                             <div class="mb-3"><input class="form-control" type="password" name="password" placeholder="Passwort"></div>
-                                            <div class="mb-3"><a class="btn btn-primary d-block w-100" role="button" href="search.html" style="background: rgb(0,91,187);">Login</a>
+                                            <div class="mb-3"><a class="btn btn-primary d-block w-100" role="button" href="search.html" style="background: rgb(0,91,187);" data-bs-target="#modal-1" data-bs-toggle="modal">Login</a>
                                                 <p class="text-muted" style="margin-top: 12px;">Passwort vergessen?<br>Neu hier? Jetzt&nbsp;<a href="register.html">registrieren</a>!</p>
                                             </div>
                                         </form>
@@ -86,6 +86,19 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Willkommen!</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ihre Email-Adresse und Passwort stimmen zwar nicht überein, wir lassen Sie aber dennoch passieren :)</p>
+                </div>
+                <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Zurück</button><a class="btn btn-primary" role="button" href="search.html">Weiter</a></div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
