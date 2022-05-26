@@ -1749,20 +1749,6 @@ Script C:\Daten\Website\marczeitler.github.io\export.bat couldn't be run
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/bootstrap/js/bootstrap.min.js.
-The file will have its original line endings in your working directory
-=======
 Thu May 19 2022 14:00:52 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -1795,32 +1781,18 @@ warning: LF will be replaced by CRLF in profile.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/Bootstrap-Chat.css.
-The file will have its original line endings in your working directory
-=======
 Thu May 19 2022 14:00:56 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    60e9d84..8e1425e  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/Navbar-Right-Links-Dark.css.
-The file will have its original line endings in your working directory
-=======
 Thu May 19 2022 14:22:32 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -1857,31 +1829,18 @@ warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in assets/js/bs-init.js.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/font-awesome.min.css.
-The file will have its original line endings in your working directory
-=======
 Thu May 19 2022 14:22:36 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    8e1425e..2cac777  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fontawesome-webfont.svg.
-=======
 Thu May 19 2022 14:28:39 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -1917,33 +1876,19 @@ The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in profile.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in search.html.
->>>>>>> Marc
 The file will have its original line endings in your working directory
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/js/bold-and-bright.js.
-The file will have its original line endings in your working directory
-=======
 Thu May 19 2022 14:28:42 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    2cac777..d235074  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/js/jquery.min.js.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 14:11:50 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -1990,32 +1935,18 @@ warning: LF will be replaced by CRLF in assets/css/Filter.css.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in assets/css/Pretty-Search-Form.css.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in chats.html.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 14:11:53 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    6db4ebc..9d053c0  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in create.html.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 18:28:07 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -2064,32 +1995,18 @@ warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in settings.html.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:22 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in empty_page.html.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 18:28:11 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    620b2f0..12fca6e  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in error.log.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 18:28:58 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -2140,55 +2057,18 @@ warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in settings.html.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in home.html.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 18:29:01 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    12fca6e..cfb925e  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in index.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in profile.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in search.html.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/Chat.css.
-=======
 Mon May 23 2022 18:39:00 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -2236,41 +2116,19 @@ The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in settings.html.
->>>>>>> Marc
 The file will have its original line endings in your working directory
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/css/some-message.css.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 18:39:04 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    425c6ca..86179a7  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fa-brands-400.svg.
-The file will have its original line endings in your working directory
-
-
-----------
-
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fa-regular-400.svg.
-The file will have its original line endings in your working directory
-=======
 Mon May 23 2022 19:59:07 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -3194,17 +3052,10 @@ Wed May 25 2022 14:41:15 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    05bb32e..7dacbaf  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fa-solid-900.svg.
-The file will have its original line endings in your working directory
-=======
 Thu May 26 2022 13:57:42 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -3263,17 +3114,10 @@ Thu May 26 2022 13:57:46 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    5895c49..e94fc13  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-warning: LF will be replaced by CRLF in assets/fonts/fontawesome-all.min.css.
-The file will have its original line endings in your working directory
-=======
 Thu May 26 2022 13:59:21 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -3334,16 +3178,10 @@ Thu May 26 2022 13:59:25 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    e94fc13..e01505e  Marc -> Marc
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-bash: /dev/tty: No such device or address
-=======
 Thu May 26 2022 14:00:03 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 warning: LF will be replaced by CRLF in assets/bootstrap/css/bootstrap.min.css.
@@ -3396,21 +3234,13 @@ warning: LF will be replaced by CRLF in search.html.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in settings.html.
 The file will have its original line endings in your working directory
->>>>>>> Marc
 
 
 ----------
 
-<<<<<<< HEAD
-Wed May 18 2022 16:12:23 GMT+0200 (Mitteleuropäische Sommerzeit)
-
-error: failed to execute prompt script (exit code 1)
-fatal: could not read Username for 'https://github.com': No such file or directory
-=======
 Thu May 26 2022 14:00:07 GMT+0200 (Mitteleuropäische Sommerzeit)
 
 To https://github.com/marczeitler/marczeitler.github.io.git
    e01505e..bb91960  Marc -> Marc
->>>>>>> Marc
 
 

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-document.addEventListener('DOMContentLoaded', function() {
-
-=======
 
 if (window.innerWidth < 768) {
 	[].slice.call(document.querySelectorAll('[data-bss-disabled-mobile]')).forEach(function (elem) {
@@ -19,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		hoverAnimationEl.addEventListener('mouseleave', function(e){ e.target.classList.remove('animated', e.target.dataset.bssHoverAnimate) });
 	});
 
->>>>>>> Marc
 	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bss-tooltip]'));
 	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 	  return new bootstrap.Tooltip(tooltipTriggerEl);
