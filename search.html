@@ -33,41 +33,46 @@
 
 <body style="background: #e9f2fb;">
     <section class="py-5 mt-5">
-        <div class="container py-5" style="height: 128.7px;">
-            <div class="row mb-5">
-                <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <p class="fw-bold text-success mb-2"></p>
-                    <h2 class="fw-bold">Inserate suchen</h2>
-                </div>
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <p class="fw-bold text-success mb-2"></p>
+                <h2 class="fw-bold">Inserate suchen</h2>
             </div>
         </div>
-        <div class="container" style="background: #39c4e3;height: auto;color: var(--bs-gray-900);border-radius: 12px;">
+        <div class="container" style="background: #39c4e3;color: var(--bs-gray-900);border-radius: 12px;">
             <div class="row" style="padding-top: 10px;">
                 <div class="col">
-                    <h1 style="font-size: 18px;">Inserate filtern</h1>
+                    <h1 style="font-size: 18px;font-weight: bold;">Inserate filtern</h1>
                 </div>
             </div>
-            <div class="row">
-                <div class="col"><input type="text" style="min-width: auto;transform: scale(1);border-width: 0px;width: 922.1px;height: 44.8px;border-radius: 14px;padding-left: 10px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"></div>
-                <div class="col"><button class="btn btn-primary" type="button" style="background: rgb(0,91,187);height: 44.8px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
+            <div class="row d-flex d-xxl-flex justify-content-center">
+                <div class="col-md-6 flex-fill"><input type="text" style="transform: scale(1);border-width: 0px;height: 44.8px;border-radius: 14px;padding-left: 10px;min-width: auto;width: 100%;margin-bottom: 10px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"></div>
+                <div class="col-md-6 d-flex justify-content-center" style="width: 177px;"><button class="btn btn-primary" type="button" style="background: rgb(0,91,187);height: 44.8px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                         </svg>Suchen</button></div>
             </div>
-            <div class="row" style="margin-top: 10px;margin-bottom: 10px;padding-bottom: 15px;">
-                <div class="col" style="width: 202px;"><select style="margin-top: 0px;height: 44px;border-radius: 16px;padding-left: 5px;border-width: 0px;">
+            <div class="row d-sm-flex d-xxl-flex justify-content-sm-center justify-content-xl-start" style="margin-top: 23px;margin-bottom: 10px;padding-bottom: 15px;">
+                <div class="col-auto d-flex d-xxl-flex justify-content-center justify-content-lg-start justify-content-xxl-center" style="margin-bottom: 10px;"><select style="height: 44px;border-radius: 16px;border-width: 0px;font-weight: bold;padding-left: 5px;">
                         <option value="12" selected="">Alle Kategorien</option>
                         <option value="13">Hilfeleistung</option>
                         <option value="15">Sozialer Kontakt</option>
                         <option value="14">Produkt</option>
                     </select></div>
-                <div class="col-lg-6 offset-lg-0 d-xl-flex justify-content-xl-center" style="width: 333px;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;">
+                <div class="col-auto d-flex d-xl-flex justify-content-center justify-content-xl-center" style="margin-bottom: 10px;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;font-weight: bold;">
                         <option value="undefined">Im Ort</option>
                         <option value="12" selected="">+ 5 km</option>
                         <option value="13">+ 10 km</option>
                         <option value="14">+ 50 km</option>
                     </select></div>
-                <div class="col d-xl-flex justify-content-xl-start">
-                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);height: 44px;">Person</button>
+                <div class="col-auto d-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-md-center justify-content-lg-start justify-content-xl-center justify-content-xxl-center">
+                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;height: 44px;border-radius: 16px;margin-right: 10px;">Sprache</button>
+                        <div class="dropdown-menu" style="padding-left: 21px;">
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Deutsch</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Englisch</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
+                        </div>
+                    </div>
+                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);height: 44px;border-radius: 16px;--bs-body-font-size: 2rem;--bs-body-font-weight: normal;">Person</button>
                         <div class="dropdown-menu" style="margin-left: 0px;padding-left: 14px;">
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">männlich</label></div>
                             <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">weiblich</label></div>
@@ -82,15 +87,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-md-flex d-lg-flex d-xl-flex justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;height: 44px;">Sprache</button>
-                        <div class="dropdown-menu" style="padding-left: 21px;">
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Deutsch</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Englisch</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <div class="container">
@@ -101,8 +97,11 @@
                             <div class="row">
                                 <div class="col" style="margin-top: 14px;">
                                     <h1 style="font-size: 25px;">Karte</h1>
+                                    <div class="row">
+                                        <div class="col"><img src="assets/img/Karte%20mit%20Pins.png" style="border-width: 1px;width: 100%;"></div>
+                                    </div>
                                 </div>
-                            </div><iframe allowfullscreen="" frameborder="0" src="https://cdn.bootstrapstudio.io/placeholders/map.html" width="100%" height="400" style="height: 327px;"></iframe>
+                            </div>
                         </div>
                     </div>
                     <h1 style="font-size: 23px;margin-top: 24px;">Ergebnisse in der Nähe</h1>
@@ -111,36 +110,54 @@
             <div class="row">
                 <div class="col">
                     <div class="row">
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
-                            <div class="card" style="width:100%;height:100%;"><a href="#"><img class="img-fluid card-img-top" style="height:200px;" src="assets/img/Fahrrad.jpg"></a>
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-height: 300px;min-width: 300px;">
+                            <div class="card" style="width:100%;height:100%;"><a href="#"><img class="img-fluid card-img-top" src="assets/img/Fahrrad_D.jpg"></a>
                                 <div class="card-body">
                                     <h5>Fahrrad zu verschenken</h5>
-                                    <p>81547 München&nbsp;</p><span class="badge bg-primary">Gegenstand</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
+                                    <p>81547 München&nbsp;</p><span class="badge bg-primary" style="--bs-primary: #007f00;--bs-primary-rgb: 0,127,0;">Gegenstand</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
                                 </div>
-                                <div class="card-footer text-center"><small><a href="#" style="color: rgb(34,194,69);"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                                <div class="card-footer text-center"><small><a href="example.html" style="color: rgb(34,194,69);"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
                             </div>
                         </div>
                         <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
-                            <div class="card"><a href="#" style="width: 419.987px;"><img class="card-img-top" style="height: 200px;padding-top: -17px;padding-right: 49px;margin-right: 42px;margin-left: 13px;" src="assets/img/31284806.jpg"></a>
+                            <div class="card"><img class="d-xl-flex justify-content-xl-center card-img-top" style="padding-top: -17px;padding-right: 49px;margin-right: 42px;margin-left: 13px;width: 90%;" src="assets/img/31284806.jpg">
                                 <div class="card-body">
                                     <h5>Fußballmitspieler gesucht</h5>
-                                    <p>81547 München</p><span class="badge bg-primary">Sozialer Kontakt</span>
+                                    <p>81547 München</p><span class="badge bg-primary" style="background: rgb(241,123,113);--bs-primary: #f2756a;--bs-primary-rgb: 242,117,106;">Sozialer Kontakt</span>
                                 </div>
                                 <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
                             </div>
                         </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
-                            <div class="card"><a href="#"><img class="card-img-top" style="height:200px;" src="assets/img/building.jpg"></a>
-                                <div class="card-body">
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;">
+                            <div class="card"><a class="d-lg-flex justify-content-lg-center" href="#"><img class="card-img-top" src="assets/img/building.jpg"></a>
+                                <div class="card-body" style="margin-top: 34px;">
                                     <h5>Biete Hilfe für Behördengänge</h5>
                                     <p>81457 München</p><span class="badge bg-primary">Hilfeleistung</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
                                 </div>
                                 <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
                             </div>
                         </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
-                            <div class="card"><a href="#"><img class="card-img-top" style="height:200px;" src="assets/img/loft.jpg"></a>
-                                <div class="card-body">
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
+                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
+                                <div class="card-body" style="margin-bottom: 57px;">
+                                    <h5></h5>
+                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
+                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
+                                <div class="card-body" style="margin-bottom: 57px;">
+                                    <h5></h5>
+                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
+                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
+                                <div class="card-body" style="margin-bottom: 57px;">
                                     <h5></h5>
                                     <p>Paragraph</p><span class="badge bg-primary">42</span>
                                 </div>
