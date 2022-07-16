@@ -27,3 +27,23 @@
   outline: none;
 }
 
+.close-navbar-toggler.collapsed {
+  z-index: -1;
+}
+
+.close-navbar-toggler.collapsed {
+  z-index: -1;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.close-navbar-toggler.collapsed {
+  z-index: -1;
+}
+
+.navbar {
+  z-index: 2;
+}
+
