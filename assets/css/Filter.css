@@ -27,12 +27,8 @@
   outline: none;
 }
 
-.close-navbar-toggler.collapsed {
-  z-index: -1;
-}
-
-.close-navbar-toggler.collapsed {
-  z-index: -1;
+.navbar {
+  z-index: 2;
 }
 
 .navbar {
@@ -43,7 +39,17 @@
   z-index: -1;
 }
 
-.navbar {
+.close-navbar-toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   z-index: 2;
+  cursor: pointer;
+}
+
+.navbar {
+  z-index: 10;
 }
 
