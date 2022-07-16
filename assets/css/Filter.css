@@ -28,15 +28,7 @@
 }
 
 .navbar {
-  z-index: 2;
-}
-
-.navbar {
-  z-index: 2;
-}
-
-.close-navbar-toggler.collapsed {
-  z-index: -1;
+  z-index: 10;
 }
 
 .close-navbar-toggler {
@@ -49,7 +41,7 @@
   cursor: pointer;
 }
 
-.navbar {
-  z-index: 10;
+.close-navbar-toggler.collapsed {
+  z-index: -1;
 }
 
