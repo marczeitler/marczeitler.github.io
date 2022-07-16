@@ -27,8 +27,8 @@
   outline: none;
 }
 
-.navbar {
-  z-index: 10;
+.mainNav {
+  z-index: 2;
 }
 
 .close-navbar-toggler {
@@ -37,7 +37,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   cursor: pointer;
 }
 
