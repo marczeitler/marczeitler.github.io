@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Search - UBay</title>
+    <title>Contacts - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/Bootstrap-Chat.css">
     <link rel="stylesheet" href="assets/css/Chat.css">
     <link rel="stylesheet" href="assets/css/Custom-product-list-audio---black.css">
+    <link rel="stylesheet" href="assets/css/CustomNavBarClosingCode.css">
     <link rel="stylesheet" href="assets/css/Filter.css">
     <link rel="stylesheet" href="assets/css/gradient-navbar-1.css">
     <link rel="stylesheet" href="assets/css/gradient-navbar.css">
@@ -31,145 +32,9 @@
     <link rel="stylesheet" href="assets/css/Toggle-Switches.css">
 </head>
 
-<body style="background: #e9f2fb;">
-    <section class="py-5 mt-5">
-        <div class="row mb-5">
-            <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <p class="fw-bold text-success mb-2"></p>
-                <h2 class="fw-bold">Inserate suchen</h2>
-            </div>
-        </div>
-        <div class="container" style="background: #39c4e3;color: var(--bs-gray-900);border-radius: 12px;">
-            <div class="row" style="padding-top: 10px;">
-                <div class="col">
-                    <h1 style="font-size: 18px;font-weight: bold;">Inserate filtern</h1>
-                </div>
-            </div>
-            <div class="row d-flex d-xxl-flex justify-content-center">
-                <div class="col-md-6 flex-fill"><input type="text" style="transform: scale(1);border-width: 0px;height: 44.8px;border-radius: 14px;padding-left: 10px;min-width: auto;width: 100%;margin-bottom: 10px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"></div>
-                <div class="col-md-6 d-flex justify-content-center" style="width: 177px;"><button class="btn btn-primary" type="button" style="background: rgb(0,91,187);height: 44.8px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                        </svg>Suchen</button></div>
-            </div>
-            <div class="row d-sm-flex d-xxl-flex justify-content-sm-center justify-content-xl-start" style="margin-top: 23px;margin-bottom: 10px;padding-bottom: 15px;">
-                <div class="col-auto d-flex d-xxl-flex justify-content-center justify-content-lg-start justify-content-xxl-center" style="margin-bottom: 10px;"><select style="height: 44px;border-radius: 16px;border-width: 0px;font-weight: bold;padding-left: 5px;">
-                        <option value="12" selected="">Alle Kategorien</option>
-                        <option value="13">Hilfeleistung</option>
-                        <option value="15">Sozialer Kontakt</option>
-                        <option value="14">Produkt</option>
-                    </select></div>
-                <div class="col-auto d-flex d-xl-flex justify-content-center justify-content-xl-center" style="margin-bottom: 10px;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;font-weight: bold;">
-                        <option value="undefined">Im Ort</option>
-                        <option value="12" selected="">+ 5 km</option>
-                        <option value="13">+ 10 km</option>
-                        <option value="14">+ 50 km</option>
-                    </select></div>
-                <div class="col-auto d-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-md-center justify-content-lg-start justify-content-xl-center justify-content-xxl-center">
-                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;height: 44px;border-radius: 16px;margin-right: 10px;">Sprache</button>
-                        <div class="dropdown-menu" style="padding-left: 21px;">
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Deutsch</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Englisch</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
-                        </div>
-                    </div>
-                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);height: 44px;border-radius: 16px;--bs-body-font-size: 2rem;--bs-body-font-weight: normal;">Person</button>
-                        <div class="dropdown-menu" style="margin-left: 0px;padding-left: 14px;">
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">männlich</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">weiblich</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">divers</label></div>
-                            <hr>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">18-25 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">26-35 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">36-45 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">46-55 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13"><label class="form-check-label" for="formCheck-13">56-65 Jahre</label></div>
-                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14"><label class="form-check-label" for="formCheck-14">66+ Jahre</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col" style="margin-top: 14px;">
-                                    <h1 style="font-size: 25px;">Karte</h1>
-                                    <div class="row">
-                                        <div class="col"><img src="assets/img/Karte%20mit%20Pins.png" style="border-width: 1px;width: 100%;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h1 style="font-size: 23px;margin-top: 24px;">Ergebnisse in der Nähe</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="row">
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-height: 300px;min-width: 300px;">
-                            <div class="card" style="width:100%;height:100%;"><a href="#"><img class="img-fluid card-img-top" src="assets/img/Fahrrad_D.jpg"></a>
-                                <div class="card-body">
-                                    <h5>Fahrrad zu verschenken</h5>
-                                    <p>81547 München&nbsp;</p><span class="badge bg-primary" style="--bs-primary: #007f00;--bs-primary-rgb: 0,127,0;">Gegenstand</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="example.html" style="color: rgb(34,194,69);"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
-                            <div class="card"><img class="d-xl-flex justify-content-xl-center card-img-top" style="padding-top: -17px;padding-right: 49px;margin-right: 42px;margin-left: 13px;width: 90%;" src="assets/img/31284806.jpg">
-                                <div class="card-body">
-                                    <h5>Fußballmitspieler gesucht</h5>
-                                    <p>81547 München</p><span class="badge bg-primary" style="background: rgb(241,123,113);--bs-primary: #f2756a;--bs-primary-rgb: 242,117,106;">Sozialer Kontakt</span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;">
-                            <div class="card"><a class="d-lg-flex justify-content-lg-center" href="#"><img class="card-img-top" src="assets/img/building.jpg"></a>
-                                <div class="card-body" style="margin-top: 34px;">
-                                    <h5>Biete Hilfe für Behördengänge</h5>
-                                    <p>81457 München</p><span class="badge bg-primary">Hilfeleistung</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
-                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
-                                <div class="card-body" style="margin-bottom: 57px;">
-                                    <h5></h5>
-                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
-                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
-                                <div class="card-body" style="margin-bottom: 57px;">
-                                    <h5></h5>
-                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width: 300px;min-height: 300px;padding-top: 0px;">
-                            <div class="card"><a href="#"><img class="card-img-top" src="assets/img/loft.jpg"></a>
-                                <div class="card-body" style="margin-bottom: 57px;">
-                                    <h5></h5>
-                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
-                                </div>
-                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <nav class="navbar navbar-light fixed-top navbar-shrink py-3" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;">
+<body style="background: #e9f2fb;"><a class="close-navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+</a>
+    <nav class="navbar navbar-light" id="mainNav" style="--bs-body-bg: #ffffff;background: #39c4e3;margin-bottom: -60px;">
         <div class="container-fluid"><a class="navbar-brand d-flex d-xl-flex" href="search.html" style="margin-right: 0px;"><img src="assets/img/Flags/Logo.png" style="width: 50px;margin-right: 5px;"><span style="color: var(--bs-gray-dark);">U-Bay</span></a>
             <nav class="navbar navbar-light navbar-expand-md">
                 <div class="container-fluid">
@@ -177,14 +42,15 @@
                         <div class="dropdown-menu" style="width: 174px;background: rgb(57,196,227);"><a class="dropdown-item d-flex d-lg-flex d-xl-flex align-items-center align-items-lg-center align-items-xl-center" href="#">український<br><img src="assets/img/Flags/Ukraine_Flagge.png" style="margin: 0px;width: 31px;margin-left: 21px;"></a><a class="dropdown-item" href="#">English<img src="assets/img/Flags/US_Flagge.png" style="margin: 0px;width: 31px;margin-left: 62px;"></a><a class="dropdown-item text-start" href="#">Deutsch<img src="assets/img/Flags/Deutsche_Flagge.png" style="margin: 0px;width: 31px;margin-left: 54px;"></a></div>
                     </div>
                 </div>
-            </nav><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="border-color: var(--bs-gray-dark);"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="border-color: var(--bs-gray-dark);"></span></button>
-            <div class="collapse navbar-collapse text-center" id="navcol-1" style="color: var(--bs-gray-dark);">
-                <ul class="navbar-nav mx-auto">
+            </nav><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarSupportedContent" style="border-color: var(--bs-gray-dark);" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"><span class="navbar-toggler-icon" style="border-color: var(--bs-gray-dark);"></span></button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent" style="color: var(--bs-gray-dark);">
+                <ul class="navbar-nav">
                     <li class="nav-item" style="color: rgb(0,91,187);"><a class="nav-link active" href="search.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-eyeglasses" style="margin-right: 5px;">
                                 <path d="M4 6a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm2.625.547a3 3 0 0 0-5.584.953H.5a.5.5 0 0 0 0 1h.541A3 3 0 0 0 7 8a1 1 0 0 1 2 0 3 3 0 0 0 5.959.5h.541a.5.5 0 0 0 0-1h-.541a3 3 0 0 0-5.584-.953A1.993 1.993 0 0 0 8 6c-.532 0-1.016.208-1.375.547zM14 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"></path>
                             </svg>Suchen</a></li>
-                    <li class="nav-item"><a class="nav-link" href="create.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil" style="margin-right: 5px;">
-                                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"></path>
+                    <li class="nav-item"><a class="nav-link" href="create.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-square" style="margin-right: 5px;">
+                                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"></path>
                             </svg>Inserat erstellen</a></li>
                     <li class="nav-item"><a class="nav-link" href="myinserts.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-eye" style="margin-right: 5px;">
                                 <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"></path>
@@ -192,7 +58,7 @@
                             </svg>&nbsp;Meine Inserate</a></li>
                     <li class="nav-item"><a class="nav-link" href="chats.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chat" style="margin-right: 5px;">
                                 <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"></path>
-                            </svg>Chats</a></li>
+                            </svg>Nachrichten</a></li>
                     <li class="nav-item"><a class="nav-link" href="profile.html" style="color: rgb(0,91,187);font-size: 18px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person" style="margin-right: 5px;">
                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
                             </svg>Profil</a></li>
@@ -208,6 +74,147 @@
             </div>
         </div>
     </nav>
+    <section class="py-5 mt-5">
+        <div class="container py-5" style="height: 128.7px;">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <p class="fw-bold text-success mb-2"></p>
+                    <h2 class="fw-bold">Inserate suchen</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container" style="background: #39c4e3;height: auto;color: var(--bs-gray-900);border-radius: 12px;">
+            <div class="row" style="padding-top: 10px;">
+                <div class="col">
+                    <h1 style="font-size: 18px;">Inserate filtern</h1>
+                </div>
+            </div>
+            <div class="row d-xxl-flex justify-content-xxl-center">
+                <div class="col-md-6 d-flex d-xxl-flex justify-content-center justify-content-xxl-center" style="width: 80%;"><input type="text" style="min-width: auto;transform: scale(1);border-width: 0px;width: 100%;height: 44.8px;border-radius: 14px;padding-left: 10px;" placeholder="Suche (Stichwort, z. B. Fahrrad)"></div>
+                <div class="col-md-6 d-flex justify-content-center" style="width: 177px;"><button class="btn btn-primary" type="button" style="background: rgb(0,91,187);height: 44.8px;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search" style="margin-right: 7px;">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                        </svg>Suchen</button></div>
+            </div>
+            <div class="row d-xxl-flex justify-content-xxl-center" style="margin-top: 23px;margin-bottom: 10px;padding-bottom: 15px;">
+                <div class="col d-flex d-xxl-flex justify-content-center justify-content-xxl-center" style="width: 202px;"><select style="margin-top: 0px;height: 44px;border-radius: 16px;padding-left: 5px;border-width: 0px;">
+                        <option value="12" selected="">Alle Kategorien</option>
+                        <option value="13">Hilfeleistung</option>
+                        <option value="15">Sozialer Kontakt</option>
+                        <option value="14">Produkt</option>
+                    </select></div>
+                <div class="col-lg-6 offset-lg-0 d-flex d-xl-flex justify-content-center justify-content-xl-center" style="width: 333px;"><input type="search" style="border-radius: 0px;border-top-left-radius: 16px;border-bottom-left-radius: 16px;height: 45px;width: 200px;max-width: none;min-width: auto;padding-left: 24px;transform-origin: top;border-width: 0px;" placeholder="PLZ oder Ort"><select style="border-top-right-radius: 16px;border-bottom-right-radius: 16px;height: 45px;border-width: 0px;">
+                        <option value="undefined">Im Ort</option>
+                        <option value="12" selected="">+ 5 km</option>
+                        <option value="13">+ 10 km</option>
+                        <option value="14">+ 50 km</option>
+                    </select></div>
+                <div class="col d-flex d-xl-flex justify-content-center justify-content-xl-start justify-content-xxl-center">
+                    <div class="dropdown d-xxl-flex justify-content-xxl-center" style="width: auto;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="background: var(--bs-white);border-width: 0px;color: rgb(45,45,45);height: 44px;border-radius: 16px;--bs-body-font-size: 2rem;--bs-body-font-weight: normal;">Person</button>
+                        <div class="dropdown-menu" style="margin-left: 0px;padding-left: 14px;">
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">männlich</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7">weiblich</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8">divers</label></div>
+                            <hr>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9">18-25 Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10">26-35 Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11">36-45 Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-12"><label class="form-check-label" for="formCheck-12">46-55 Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-13"><label class="form-check-label" for="formCheck-13">56-65 Jahre</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-14"><label class="form-check-label" for="formCheck-14">66+ Jahre</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
+                    <div class="dropdown"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="color: rgb(45,45,45);background: var(--bs-gray-100);border-width: 0px;width: auto;height: 44px;border-radius: 16px;">Sprache</button>
+                        <div class="dropdown-menu" style="padding-left: 21px;">
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Deutsch</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Englisch</label></div>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">Ukranisch</label></div><a href="#" style="text-decoration:  underline;">Filter löschen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col" style="margin-top: 14px;">
+                                    <h1 style="font-size: 25px;">Karte</h1>
+                                    <div class="row">
+                                        <div class="col" style="height: 559.312px;"><img src="assets/img/Karte%20mit%20Pins.png" style="width: 100%;height: 100%;border-width: 1px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 style="font-size: 23px;margin-top: 24px;">Ergebnisse in der Nähe</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
+                            <div class="card" style="width:100%;height:100%;"><a href="example.html"><img class="img-fluid card-img-top" style="height:200px;" src="assets/img/Fahrrad.jpg"></a>
+                                <div class="card-body">
+                                    <h5>Fahrrad zu verschenken</h5>
+                                    <p>81547 München&nbsp;</p><span class="badge bg-primary" style="--bs-primary: #007f00;--bs-primary-rgb: 0,127,0;">Gegenstand</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="example.html" style="color: rgb(34,194,69);height: auto;width: auto;"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
+                            <div class="card"><a href="example.html" style="width: 100%;"><img class="card-img-top" style="height: 200px;padding-top: -17px;padding-right: 49px;margin-right: 42px;margin-left: 13px;width: 100%;" src="assets/img/31284806.jpg"></a>
+                                <div class="card-body">
+                                    <h5>Fußballmitspieler gesucht</h5>
+                                    <p>81547 München</p><span class="badge bg-primary" style="background: rgb(241,123,113);--bs-primary: #f2756a;--bs-primary-rgb: 242,117,106;">Sozialer Kontakt</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col-4 py-3 mx-auto col-xl-4 col-lg-6 col-md-6 col-sm-12" style="min-width:300px;min-height:300px;">
+                            <div class="card"><a href="example.html"><img class="card-img-top" style="height:200px;" src="assets/img/building.jpg"></a>
+                                <div class="card-body">
+                                    <h5>Biete Hilfe für Behördengänge</h5>
+                                    <p>81457 München</p><span class="badge bg-primary">Hilfeleistung</span><span class="badge bg-primary"></span><span class="badge bg-primary"></span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card"><a href="#"><img class="card-img-top" style="height:200px;" src="assets/img/loft.jpg"></a>
+                                <div class="card-body">
+                                    <h5></h5>
+                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card"><a href="#"><img class="card-img-top" style="height:200px;" src="assets/img/loft.jpg"></a>
+                                <div class="card-body">
+                                    <h5></h5>
+                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card"><a href="#"><img class="card-img-top" style="height:200px;" src="assets/img/loft.jpg"></a>
+                                <div class="card-body">
+                                    <h5></h5>
+                                    <p>Paragraph</p><span class="badge bg-primary">42</span>
+                                </div>
+                                <div class="card-footer text-center"><small><a href="#"><i class="fa fa-eye pe-1"></i>Anzeige ansehen<br></a></small></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
