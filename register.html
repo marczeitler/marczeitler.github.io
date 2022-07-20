@@ -147,7 +147,7 @@
                         <hr><small>Mit * markierte Felder sind Pflichtfelder und müssen ausgefüllt werden, alle anderen Felder sind optional. Persönliche Informationen wie Email-Adresse, Passwort, Anschrift und Telefonnummer können von keinem Nutzer gesehen werden und werden nicht an Dritte weitergegeben. Für weitere Informationen siehe die Lizenzvereinbarung.<br></small>
                         <hr>
                         <div class="row">
-                            <div class="col-md-12 content-right"><a class="btn btn-primary form-btn" role="button" href="search.html" style="background: #005bbb;border-style: none;color: var(--bs-white);">Registrieren</a><a class="btn btn-danger form-btn" role="button" href="index.html" style="border-style: none;color: var(--bs-white);background: rgb(172,185,211);">Abbrechen</a></div>
+                            <div class="col-md-12 content-right"><button class="btn btn-primary form-btn" type="submit" style="background: #005bbb;border-style: none;color: var(--bs-white);" data-bs-target="#modal-1" data-bs-toggle="modal">Registrieren</button><a class="btn btn-danger form-btn" role="button" href="index.html" style="border-style: none;color: var(--bs-white);background: rgb(172,185,211);">Abbrechen</a></div>
                         </div>
                         <hr>
                     </div>
@@ -188,6 +188,19 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Registrierung erfolgreich!</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Danke dass Sie sich bei uns registriert haben. Sie werden jetzt zur Startseite weitergeleitet.</p>
+                </div>
+                <div class="modal-footer"><a class="btn btn-primary" role="button" href="search.html">Ok</a></div>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
